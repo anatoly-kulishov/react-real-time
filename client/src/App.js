@@ -1,7 +1,7 @@
 import React from 'react';
-import LongPulling from "./LongPulling";
+import LongPolling from "./LongPolling";
 import EventSourcing from "./EventSourcing";
-import WebSock from "./WebSock";
+import WebSocket from "./WebSocket";
 import './app.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 		<div>
 			{/*<LongPulling/>*/}
 			{/*<EventSourcing/>*/}
-			<WebSock/>
+			<WebSocket/>
 		</div>
 	)
 }

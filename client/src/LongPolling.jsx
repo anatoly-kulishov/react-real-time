@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 
-const LongPulling = () => {
+const LongPolling = () => {
 	const [messages, setMessages] = useState([]);
 	const [value, setValue] = useState('');
 	const [isLoading, setIsLoading] = useState(false);
@@ -50,4 +50,4 @@ const LongPulling = () => {
 	);
 };
 
-export default LongPulling;
+export default LongPolling;

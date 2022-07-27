@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 
-const WebSock = () => {
+const WebSocket = () => {
 	const [messages, setMessages] = useState([]);
 	const [value, setValue] = useState('');
 	const socket = useRef();
@@ -100,4 +100,4 @@ const WebSock = () => {
 	);
 };
 
-export default WebSock;
+export default WebSocket;
